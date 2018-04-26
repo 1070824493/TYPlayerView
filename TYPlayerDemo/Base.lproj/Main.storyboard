@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="JXVideoPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YlV-wf-6Dh"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfn-IC-hfh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FH5-fU-9Xz" customClass="TYPlayer" customModule="JXVideoPlayer" customModuleProvider="target">
+                                <rect key="frame" x="20" y="60" width="335" height="150"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="V90-S5-kmF"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MA0-mU-FlQ">
+                                <rect key="frame" x="126" y="551" width="123" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="播放测试视频"/>
+                                <connections>
+                                    <action selector="go2Test:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bSB-tc-1oA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FH5-fU-9Xz" secondAttribute="trailing" constant="20" id="2QI-m7-NUo"/>
+                            <constraint firstItem="FH5-fU-9Xz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="Kdh-qN-n5a"/>
+                            <constraint firstItem="FH5-fU-9Xz" firstAttribute="top" secondItem="YlV-wf-6Dh" secondAttribute="bottom" constant="40" id="We3-Fh-GJe"/>
+                            <constraint firstItem="MA0-mU-FlQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pPo-QZ-7EZ"/>
+                            <constraint firstItem="wfn-IC-hfh" firstAttribute="top" secondItem="MA0-mU-FlQ" secondAttribute="bottom" constant="80" id="tUd-ik-Xbo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playerViewXib" destination="FH5-fU-9Xz" id="RnR-PB-Qt7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="92.203898050974516"/>
+        </scene>
+    </scenes>
+</document>

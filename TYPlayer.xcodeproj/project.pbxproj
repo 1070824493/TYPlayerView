@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10C335CF20919F4E00511827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C335C720919F4E00511827 /* ViewController.swift */; };
+		10C335D020919F4E00511827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10C335C820919F4E00511827 /* Assets.xcassets */; };
+		10C335D120919F4E00511827 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C335C920919F4E00511827 /* LaunchScreen.storyboard */; };
+		10C335D220919F4E00511827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10C335CB20919F4E00511827 /* Main.storyboard */; };
+		10C335D320919F4E00511827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C335CD20919F4E00511827 /* AppDelegate.swift */; };
+		10C335D420919F4E00511827 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10C335CE20919F4E00511827 /* Info.plist */; };
+		10EE12881F7A4558005E3058 /* TYPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE12821F7A4558005E3058 /* TYPlayer.swift */; };
+		10EE12891F7A4558005E3058 /* TYPlayer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10EE12831F7A4558005E3058 /* TYPlayer.xcassets */; };
+		10EE128B1F7A4558005E3058 /* TYPlayerControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE12851F7A4558005E3058 /* TYPlayerControlView.swift */; };
+		10EE128C1F7A4558005E3058 /* TYPlayerLayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE12861F7A4558005E3058 /* TYPlayerLayerView.swift */; };
+		10EE128D1F7A4558005E3058 /* TYPlayerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10EE12871F7A4558005E3058 /* TYPlayerSlider.swift */; };
+		6468266CBB8D8531C77150C9 /* Pods_TYPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EF32496688AED4CBF53102 /* Pods_TYPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		056A4371F312E4DDA82D8010 /* Pods-TYPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYPlayer/Pods-TYPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		10213E2C1F7A01E3000527B3 /* TYPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C335C720919F4E00511827 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10C335C820919F4E00511827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10C335CA20919F4E00511827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10C335CC20919F4E00511827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10C335CD20919F4E00511827 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10C335CE20919F4E00511827 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10EE12821F7A4558005E3058 /* TYPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPlayer.swift; sourceTree = "<group>"; };
+		10EE12831F7A4558005E3058 /* TYPlayer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TYPlayer.xcassets; sourceTree = "<group>"; };
+		10EE12851F7A4558005E3058 /* TYPlayerControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPlayerControlView.swift; sourceTree = "<group>"; };
+		10EE12861F7A4558005E3058 /* TYPlayerLayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPlayerLayerView.swift; sourceTree = "<group>"; };
+		10EE12871F7A4558005E3058 /* TYPlayerSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYPlayerSlider.swift; sourceTree = "<group>"; };
+		20039840EA6EED1EEEBAE0DF /* Pods_JXVideoPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JXVideoPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76919E9D4082E6C4F1ED951D /* Pods-JXVideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXVideoPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JXVideoPlayer/Pods-JXVideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		83E6D25A8CD1E76F89B65419 /* Pods-JXVideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JXVideoPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-JXVideoPlayer/Pods-JXVideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		C5EF32496688AED4CBF53102 /* Pods_TYPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TYPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA464B34AF4D0F64F796C4A3 /* Pods-TYPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYPlayer/Pods-TYPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10213E291F7A01E3000527B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6468266CBB8D8531C77150C9 /* Pods_TYPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10213E231F7A01E3000527B3 = {
+			isa = PBXGroup;
+			children = (
+				10C335C620919F4E00511827 /* TYPlayerDemo */,
+				10EE12811F7A4558005E3058 /* Sources */,
+				10213E2D1F7A01E3000527B3 /* Products */,
+				AC869BDF727B5AD131AF9375 /* Pods */,
+				81D99D1A852FD22D90395388 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10213E2D1F7A01E3000527B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10213E2C1F7A01E3000527B3 /* TYPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10C335C620919F4E00511827 /* TYPlayerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				10C335C720919F4E00511827 /* ViewController.swift */,
+				10C335C820919F4E00511827 /* Assets.xcassets */,
+				10C335C920919F4E00511827 /* LaunchScreen.storyboard */,
+				10C335CB20919F4E00511827 /* Main.storyboard */,
+				10C335CD20919F4E00511827 /* AppDelegate.swift */,
+				10C335CE20919F4E00511827 /* Info.plist */,
+			);
+			path = TYPlayerDemo;
+			sourceTree = "<group>";
+		};
+		10EE12811F7A4558005E3058 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				10EE12821F7A4558005E3058 /* TYPlayer.swift */,
+				10EE12831F7A4558005E3058 /* TYPlayer.xcassets */,
+				10EE12851F7A4558005E3058 /* TYPlayerControlView.swift */,
+				10EE12861F7A4558005E3058 /* TYPlayerLayerView.swift */,
+				10EE12871F7A4558005E3058 /* TYPlayerSlider.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		81D99D1A852FD22D90395388 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20039840EA6EED1EEEBAE0DF /* Pods_JXVideoPlayer.framework */,
+				C5EF32496688AED4CBF53102 /* Pods_TYPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC869BDF727B5AD131AF9375 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76919E9D4082E6C4F1ED951D /* Pods-JXVideoPlayer.debug.xcconfig */,
+				83E6D25A8CD1E76F89B65419 /* Pods-JXVideoPlayer.release.xcconfig */,
+				CA464B34AF4D0F64F796C4A3 /* Pods-TYPlayer.debug.xcconfig */,
+				056A4371F312E4DDA82D8010 /* Pods-TYPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10213E2B1F7A01E3000527B3 /* TYPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10213E3E1F7A01E3000527B3 /* Build configuration list for PBXNativeTarget "TYPlayer" */;
+			buildPhases = (
+				25F250DA12721B164987BF2A /* [CP] Check Pods Manifest.lock */,
+				10213E281F7A01E3000527B3 /* Sources */,
+				10213E291F7A01E3000527B3 /* Frameworks */,
+				10213E2A1F7A01E3000527B3 /* Resources */,
+				F439B0B80FE9B324D2D0115C /* [CP] Embed Pods Frameworks */,
+				38BE24D726F7D4D3F7D168FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYPlayer;
+			productName = JXVideoPlayer;
+			productReference = 10213E2C1F7A01E3000527B3 /* TYPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10213E241F7A01E3000527B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = jx;
+				TargetAttributes = {
+					10213E2B1F7A01E3000527B3 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 10213E271F7A01E3000527B3 /* Build configuration list for PBXProject "TYPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10213E231F7A01E3000527B3;
+			productRefGroup = 10213E2D1F7A01E3000527B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10213E2B1F7A01E3000527B3 /* TYPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10213E2A1F7A01E3000527B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C335D120919F4E00511827 /* LaunchScreen.storyboard in Resources */,
+				10C335D020919F4E00511827 /* Assets.xcassets in Resources */,
+				10EE12891F7A4558005E3058 /* TYPlayer.xcassets in Resources */,
+				10C335D420919F4E00511827 /* Info.plist in Resources */,
+				10C335D220919F4E00511827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25F250DA12721B164987BF2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TYPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38BE24D726F7D4D3F7D168FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYPlayer/Pods-TYPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F439B0B80FE9B324D2D0115C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TYPlayer/Pods-TYPlayer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYPlayer/Pods-TYPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10213E281F7A01E3000527B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C335D320919F4E00511827 /* AppDelegate.swift in Sources */,
+				10C335CF20919F4E00511827 /* ViewController.swift in Sources */,
+				10EE12881F7A4558005E3058 /* TYPlayer.swift in Sources */,
+				10EE128C1F7A4558005E3058 /* TYPlayerLayerView.swift in Sources */,
+				10EE128D1F7A4558005E3058 /* TYPlayerSlider.swift in Sources */,
+				10EE128B1F7A4558005E3058 /* TYPlayerControlView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10C335C920919F4E00511827 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C335CA20919F4E00511827 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		10C335CB20919F4E00511827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10C335CC20919F4E00511827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10213E3C1F7A01E3000527B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		10213E3D1F7A01E3000527B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10213E3F1F7A01E3000527B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA464B34AF4D0F64F796C4A3 /* Pods-TYPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V4R3BFY32R;
+				INFOPLIST_FILE = "$(SRCROOT)/TYPlayerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ty.TYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e4bbefc-8d03-46b1-bfd2-8139ffc9756a";
+				PROVISIONING_PROFILE_SPECIFIER = tyPV;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10213E401F7A01E3000527B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056A4371F312E4DDA82D8010 /* Pods-TYPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V4R3BFY32R;
+				INFOPLIST_FILE = "$(SRCROOT)/TYPlayerDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ty.TYPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e4bbefc-8d03-46b1-bfd2-8139ffc9756a";
+				PROVISIONING_PROFILE_SPECIFIER = tyPV;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10213E271F7A01E3000527B3 /* Build configuration list for PBXProject "TYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10213E3C1F7A01E3000527B3 /* Debug */,
+				10213E3D1F7A01E3000527B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10213E3E1F7A01E3000527B3 /* Build configuration list for PBXNativeTarget "TYPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10213E3F1F7A01E3000527B3 /* Debug */,
+				10213E401F7A01E3000527B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10213E241F7A01E3000527B3 /* Project object */;
+}
